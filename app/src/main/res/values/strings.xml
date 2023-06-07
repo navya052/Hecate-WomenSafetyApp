@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Hecate</string>
+    <string name="name">Name</string>
+    <string name="submit">Submit</string>
+    <string name="emergency_contact_1">Emergency Contact - 1</string>
+    <string name="emergency_contact_2">Emergency Contact - 2</string>
+    <string name="enter_your_details">Enter Your details</string>
+    <string name="login">LOGIN</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="women_safety_app">Women Safety App</string>
+    <string name="hecate">HECATE</string>
+    <string name="enter_your_information">ENTER YOUR INFORMATION</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="email_id">Email-ID</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create account</string>
+    <string name="enter_login_details">Enter Login Details</string>
+    <string name="about">  The increased amount of crimes happening towards women is what motivated us to make this application.</string>
+    <string name="about2">We hope that this application could be of possible help to women in need.</string>
+</resources>

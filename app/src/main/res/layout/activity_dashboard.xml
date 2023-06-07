@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/appbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/fake_call_btn"
+                android:layout_width="128dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape3"
+                android:gravity="center"
+                android:text="FAKE CALL"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:backgroundTint="#4FD6C7" />
+
+            <ToggleButton
+                android:id="@+id/siren"
+                android:layout_width="158dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/shape3"
+                android:gravity="center"
+                android:text="SIREN"
+                android:textColor="@color/black"
+                android:textOff="SIREN"
+                android:textOn="OFF"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:backgroundTint="#FF5722" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/msg2"
+            android:layout_width="324dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/shape3"
+            android:backgroundTint="#FF9D5C"
+            android:gravity="center"
+            android:text="BEING CAUTIOUS"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:backgroundTint="#FDB07D" />
+
+        <ToggleButton
+            android:id="@+id/msg"
+            android:layout_width="319dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/shape3"
+            android:backgroundTint="@color/red"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textOff="PANIC ALERT"
+            android:textOn="STOP MESSAGE"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:backgroundTint="#E40B2B" />
+
+    </LinearLayout>
+
+</LinearLayout>

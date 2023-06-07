@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/appbar2"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about2"
+        android:paddingLeft="5dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:gravity="left"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regards,"
+        android:paddingLeft="5dp"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        android:gravity="left"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navyashree K V\nNeeraja Rajesh\nNesara A\nPoorna N S"
+        android:paddingLeft="15dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:gravity="left"/>
+
+
+
+</LinearLayout>
